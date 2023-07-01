@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holy Grail</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- superagent for  http calls -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/superagent/3.8.3/superagent.min.js"></script>    
+
+    <!-- don't use this in production: -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+
+  <!-- we will put our react component inside this div -->
+  <span id="root"></span>
+
+  <!-- load react -->
+  <script src="https://unpkg.com/react/umd/react.development.js" crossorigin defer type="text/babel" ></script>
+  <script src="https://unpkg.com/react-dom/umd/react-dom.development.js" crossorigin defer type="text/babel"></script>
+
+  <!-- load our react component. -->
+  <script src="../src/components/Header.js" defer type="text/babel"></script>
+  <!-- <script src="../src/components/left.js" defer type="text/babel"></script>
+  <script src="../src/components/Article.js" defer type="text/babel"></script>
+  <script src="../src/components/right.js" defer type="text/babel"></script>
+  <script src="../src/components/Footer.js" defer type="text/babel"></script> -->
+  <script src="../src/index.js" defer type="text/babel"></script>
+  <script src="../src/sharedFunctions/Data.js" defer type="text/babel"></script>
+  <script src="../src/sharedFunctions/PlusMinus.js" defer type="text/babel"></script>
+</body>
+</html>
